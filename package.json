@@ -1,0 +1,30 @@
+{
+  "name": "angular2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jspm": "^0.16.53"
+  },
+  "jspm": {
+    "dependencies": {
+      "@angular/common": "npm:@angular/common@^4.2.4",
+      "@angular/compiler": "npm:@angular/compiler@^4.2.4",
+      "@angular/core": "npm:@angular/core@^4.2.4",
+      "@angular/platform-browser": "npm:@angular/platform-browser@^4.2.4",
+      "@angular/platform-browser-dynamic": "npm:@angular/platform-browser-dynamic@^4.2.4",
+      "reflect-metadata": "npm:reflect-metadata@^0.1.10",
+      "rxjs": "npm:rxjs@^5.4.1",
+      "text": "github:systemjs/plugin-text@^0.0.11",
+      "zone.js": "npm:zone.js@^0.8.12"
+    },
+    "devDependencies": {
+      "typescript": "npm:typescript@^2.0.7"
+    }
+  }
+}
