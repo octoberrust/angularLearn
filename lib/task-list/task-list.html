@@ -1,0 +1,13 @@
+<!--<div *ngFor="let task of tasks" class="task">
+    <input type="checkbox" [checked]="task.done">
+    <div class="task__title">{{task.title}}</div>
+</div>-->
+
+<ngc-toggle [buttonList]="taskFilterList"
+            [(selectedButton)]="selectedTaskFilter">
+
+</ngc-toggle>
+
+<ngc-enter-task (taskEntered)="addTask($event)">  </ngc-enter-task>
+<ngc-task *ngFor="let task of getFilteredTasks()"
+[task]="task"></ngc-task>
